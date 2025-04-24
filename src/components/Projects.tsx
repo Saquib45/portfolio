@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       description: "A full-stack web application to securely manage personal and professional contacts with user authentication. Built using Spring Boot, Thymeleaf, and Tailwind CSS with CRUD operations and role-based access",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5Ic9BMsl1UCj-E2mSzL5K9LyPsfLgJky8g&s",
       technologies: ["Java", "Spring Boot", "SQL", "HTML", "CSS", "JavaScript", "Thymeleaf", "Tailwind CSS"],
-      githubUrl: "https://github.com/Saquib45/Manage-Contact.git",
+      githubUrl: "https://github.com/Saquib45/SmartContactManager",
       // liveUrl: "https://example.com",
     },
     {
