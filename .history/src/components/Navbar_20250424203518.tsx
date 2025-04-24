@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
             </ul>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/Saquib45"
+                href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

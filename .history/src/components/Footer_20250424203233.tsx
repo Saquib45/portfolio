@@ -27,13 +27,22 @@ const Footer: React.FC = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/saquibmaniyar10/"
+                href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-accent transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-secondary transition-colors"
+                aria-label="Twitter"
+              >
+                <Twitter size={20} />
               </a>
             </div>
           </div>
@@ -71,7 +80,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Maharashtra,India</li>
+              <li>Nanded/Latur,Maharashtra,india</li>
               <li>saquibmaniyart@gmail.com</li>
               <li>+91 9960844980</li>
             </ul>

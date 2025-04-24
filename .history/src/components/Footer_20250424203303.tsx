@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
-              </a>
+              </a
             </div>
           </div>
           
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Maharashtra,India</li>
+              <li>Nanded/Latur,Maharashtra,india</li>
               <li>saquibmaniyart@gmail.com</li>
               <li>+91 9960844980</li>
             </ul>

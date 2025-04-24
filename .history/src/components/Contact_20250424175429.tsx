@@ -307,16 +307,15 @@ const Contact = () => {
       const templateParams = {
         to_email: 'saquibmaniyart@gmail.com',
         from_name: formData.name,
-        email: formData.email,
+        from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
       };
 
-       await emailjs.send(
-         'service_907wplg', // Replace with your EmailJS service ID
-         'template_1kubjpb', // Replace with your EmailJS template ID
-         templateParams,
-         'U5R8r0rwNVDyyyXwj' // Replace with your EmailJS public key
+//       await emailjs.send(
+//         'service_907wplg', // Replace with your EmailJS service ID
+//         'template_1kubjpb', // Replace with your EmailJS template ID
+//         templateParams,         'U5R8r0rwNVDyyyXwj' // Replace with your EmailJS public key
        );
 
       setSubmitSuccess(true);
@@ -383,7 +382,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="input bg-gray-700"
-                      placeholder="Name"
+                      placeholder="John Doe"
                     />
                   </div>
                   <div>
@@ -398,7 +397,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="input bg-gray-700"
-                      placeholder="demo@example.com"
+                      placeholder="john@example.com"
                     />
                   </div>
                 </div>
@@ -482,7 +481,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-white">Location</h4>
                     <p className="text-gray-400">
-                      Maharashtra,India
+                      San Francisco, California
                     </p>
                   </div>
                 </div>
@@ -493,8 +492,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-white">Phone</h4>
-                    <a href="tel:+91 9960844980" className="text-gray-400 hover:text-accent transition-colors">
-                      +91 9960844980
+                    <a href="tel:+12345678900" className="text-gray-400 hover:text-accent transition-colors">
+                      +1 (234) 567-8900
                     </a>
                   </div>
                 </div>
@@ -505,7 +504,7 @@ const Contact = () => {
               <h3 className="text-xl font-bold mb-6">Connect With Me</h3>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="https://github.com/Saquib45"
+                  href="https://github.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 bg-gray-700 hover:bg-primary/20 rounded-full transition-colors"
@@ -513,12 +512,20 @@ const Contact = () => {
                   <Github className="text-white" size={22} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/saquibmaniyar10/"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 bg-gray-700 hover:bg-accent/20 rounded-full transition-colors"
                 >
                   <Linkedin className="text-white" size={22} />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-12 h-12 bg-gray-700 hover:bg-secondary/20 rounded-full transition-colors"
+                >
+                  <Twitter className="text-white" size={22} />
                 </a>
               </div>
             </div>

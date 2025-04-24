@@ -49,8 +49,8 @@ const Projects: React.FC = () => {
       // liveUrl: "https://example.com",
     },
     {
-      id: 2,
-      title: "Real Time Chat Application",
+      id: 1,
+      title: "R",
       description: "A real-time chat application enabling seamless one-to-one and group messaging with instant delivery. Built using WebSockets for real-time communication and a modern, responsive UI for a smooth user experience.",
       image: "https://images.pexels.com/photos/27550988/pexels-photo-27550988/free-photo-of-a-person-holding-a-cell-phone-in-front-of-a-wooden-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["Java", "Spring Boot", "MongoDB", "HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
     },
   
     {
-      id: 3,
+      id: 4,
       title: "College Sports Event Management Portal",
       description: "A dynamic web platform built to streamline the organization of college sports events, including registration, scheduling a user-friendly interface for participants, coordinators, and sports enthusiast to register efficiently.Developed using modern web technologies with responsive design for accessibility across devices.",
       image: "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg",

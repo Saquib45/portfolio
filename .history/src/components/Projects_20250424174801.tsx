@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
     },
   
     {
-      id: 3,
+      id: 4,
       title: "College Sports Event Management Portal",
       description: "A dynamic web platform built to streamline the organization of college sports events, including registration, scheduling a user-friendly interface for participants, coordinators, and sports enthusiast to register efficiently.Developed using modern web technologies with responsive design for accessibility across devices.",
       image: "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg",

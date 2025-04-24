@@ -513,7 +513,7 @@ const Contact = () => {
                   <Github className="text-white" size={22} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/saquibmaniyar10/"
+                  href="https://github.com/Saquib45"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 bg-gray-700 hover:bg-accent/20 rounded-full transition-colors"
