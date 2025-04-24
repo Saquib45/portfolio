@@ -162,7 +162,7 @@ const Navbar: React.FC = () => {
               }}
               className="mt-4 bg-primary text-white text-lg px-6 py-2 rounded-lg hover:bg-primary/80 transition"
             >
-              Resume
+              Download Resume
             </button>
           </div>
         </div>
