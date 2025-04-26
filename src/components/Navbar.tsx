@@ -1,3 +1,6 @@
+
+
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { Github, Linkedin, Menu, X } from 'lucide-react';
@@ -22,13 +25,6 @@ const Navbar: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleResumeDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Saquib_Resume.pdf';
-    link.click();
-  };
-
   const navLinks = [
     { name: 'Home', target: 'hero' },
     { name: 'Skills', target: 'skills' },
@@ -38,6 +34,7 @@ const Navbar: React.FC = () => {
     { name: 'Contact', target: 'contact' },
   ];
 
+  const resumeUrl="https://drive.google.com/file/d/1FGSD9d8izDl5jY8DvGrcrZE2PZpmbrI3/view";
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
@@ -91,12 +88,16 @@ const Navbar: React.FC = () => {
               >
                 <Linkedin size={20} />
               </a>
-              <button
-                onClick={handleResumeDownload}
-                className="bg-primary text-white text-sm font-medium px-4 py-1.5 rounded-lg hover:bg-primary/80 transition"
-              >
-                Resume
-              </button>
+
+              {/* Resume Button for Desktop */}
+              <a
+                  href={resumeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary text-white text-sm font-medium px-4 py-1.5 rounded-lg hover:bg-primary/80 transition"
+                >
+                  Resume
+              </a>
             </div>
           </div>
 
@@ -155,15 +156,16 @@ const Navbar: React.FC = () => {
                 <Linkedin size={24} />
               </a>
             </div>
-            <button
-              onClick={() => {
-                handleResumeDownload();
-                toggleMenu();
-              }}
-              className="mt-4 bg-primary text-white text-lg px-6 py-2 rounded-lg hover:bg-primary/80 transition"
-            >
-              Resume
-            </button>
+
+            {/* Resume Button for Mobile */}
+            <a
+                href={resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary text-white text-sm font-medium px-4 py-1.5 rounded-lg hover:bg-primary/80 transition"
+              >
+                Resume
+            </a>
           </div>
         </div>
       </div>
