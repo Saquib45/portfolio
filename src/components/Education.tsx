@@ -44,7 +44,7 @@ const Education: React.FC = () => {
     {
       degree: "Bachelor of Technology in Electronics and Telecommunication Engineering",
       institution: "Shri Guru Gobind Singhji Institute  Of Engineering And Information Technology",
-      period: "2015 - 2019",
+      period: "2022-2026",
       description: "I am currently in my third year of engineering, actively pursuing a degree in Electronics and Telecommunication Engineering.With a strong academic foundation, I have maintained a CGPA of 8.3 so far.I'm passionate about technology and constantly working to enhance my skills in software development."
     },
     {
