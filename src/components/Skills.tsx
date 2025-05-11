@@ -126,13 +126,17 @@ const Skills: React.FC = () => {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center justify-center gap-8 p-6 bg-gray-800 rounded-xl">
             <div className="flex flex-col items-center">
-              <span className="text-3xl font-bold text-accent">400+</span>
+              <a href=""><span className="text-3xl font-bold text-accent">400+</span></a>
               <span className="text-sm text-gray-400">LeetCode Problems</span>
             </div>
             <div className="h-12 w-px bg-gray-700"></div>
             <div className="flex flex-col items-center">
-              <span className="text-3xl font-bold text-secondary">150+</span>
-              <span className="text-sm text-gray-400">GeeksforGeeks Problems</span>
+              <a href="https://www.geeksforgeeks.org/user/saquibmab6ui/">
+                <span className="text-3xl font-bold text-secondary">150+</span>
+              </a>
+                <span className="text-sm text-gray-400">GeeksforGeeks Problems</span>
+              
+              
             </div>
           </div>
         </div>
