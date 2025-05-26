@@ -104,7 +104,7 @@ const Education: React.FC = () => {
           ))}
         </motion.div>
 
-        <div className="mt-12 text-center relative z-10">
+        {/* <div className="mt-12 text-center relative z-10">
           <a
             href="#"
             className="inline-flex items-center text-accent hover:text-primary transition-colors"
@@ -125,7 +125,7 @@ const Education: React.FC = () => {
               />
             </svg>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

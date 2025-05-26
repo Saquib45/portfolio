@@ -44,7 +44,7 @@ const Education: React.FC = () => {
     {
       degree: "Bachelor of Technology in Electronics and Telecommunication Engineering",
       institution: "Shri Guru Gobind Singhji Institute  Of Engineering And Information Technology",
-      period: "2015 - 2019",
+      period: "2022-2026",
       description: "I am currently in my third year of engineering, actively pursuing a degree in Electronics and Telecommunication Engineering.With a strong academic foundation, I have maintained a CGPA of 8.3 so far.I'm passionate about technology and constantly working to enhance my skills in software development."
     },
     {
@@ -52,15 +52,6 @@ const Education: React.FC = () => {
       institution: "Coding Academy",
       period: "Regularly",
       description: "My learning journey began with mastering Data Structures and Algorithms, building a strong foundation in problem-solving and logic.Alongside, I explored Web Development, gaining hands-on experience with HTML, CSS, JavaScript, and modern frameworks like React and Spring Boot.This combination has helped me grow as a well-rounded developer, capable of building efficient and dynamic applications."
-    },
-
-
-
-
-
-
-
-"
     },
   ];
 
@@ -113,7 +104,7 @@ const Education: React.FC = () => {
           ))}
         </motion.div>
 
-        <div className="mt-12 text-center relative z-10">
+        {/* <div className="mt-12 text-center relative z-10">
           <a
             href="#"
             className="inline-flex items-center text-accent hover:text-primary transition-colors"
@@ -134,7 +125,7 @@ const Education: React.FC = () => {
               />
             </svg>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
