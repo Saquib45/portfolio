@@ -135,14 +135,12 @@ const Skills: React.FC = () => {
                 <span className="text-3xl font-bold text-secondary">150+</span>
               </a>
                 <span className="text-sm text-gray-400">GeeksforGeeks Problems</span>
-              
-              
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
+  ); 
 };
 
-export default Skills;
+export default Skills; 

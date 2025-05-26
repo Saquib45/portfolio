@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
     { name: 'Contact', target: 'contact' },
   ];
 
-  const resumeUrl="https://drive.google.com/file/d/1FGSD9d8izDl5jY8DvGrcrZE2PZpmbrI3/view";
+  const resumeUrl="https://drive.google.com/file/d/1NJJrkySWaxAzFCB5xkSb82RVHtOviQVt/view?usp=sharing";
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
