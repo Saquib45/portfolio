@@ -68,6 +68,18 @@ const Projects: React.FC = () => {
       liveUrl: "https://www.zenithsggs.in/",
 
     },
+
+        {
+      id: 4,
+      title: "AI Medical Assistant",
+      description: "An AI-powered medical assistant that provides personalized health advice and symptom analysis. It uses natural language processing to understand user queries and offers recommendations based on a vast medical knowledge base.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKn-70UnUkxP9rn2sEWGWWSZgAGKmEM4L6A&s",
+      technologies: ["Python", "css", "HTML", "MySQL","JAVA","Spring Boot"],
+      githubUrl: "https://github.com/Saquib45/Medical-Assistant",
+      
+
+    },
+
   ];
 
   return (
