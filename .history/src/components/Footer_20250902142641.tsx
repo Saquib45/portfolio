@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Services</h4>
             <ul className="space-y-2">
-              {['Software Development','Big Data Engineering','Web Development', 'Frontend Design', 'Backend Systems', 'API Development', 'Database Design'].map((item) => (
+              {['Software Development',,'Web Development', 'Frontend Design', 'Backend Systems', 'API Development', 'Database Design'].map((item) => (
                 <li key={item}>
                   <span className="text-gray-400 cursor-default">{item}</span>
                 </li>

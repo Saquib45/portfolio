@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
               sequence={[
                 'Fullstack Developer',
                 2000,
-                'Data Engineer',
+                'Code Craftsman',
                 2000,
                 'Software Developer',
                 2000,
